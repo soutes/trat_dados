@@ -9,22 +9,18 @@ A estrutura do projeto segue uma organização clara e lógica para facilitar a 
 ├── Dockerfile
 
 ├── docs
-
-│   ├── despesa_ceaps_2019.csv
-
-│   ├── despesa_ceaps_2020.csv
-
-│   ├── despesa_ceaps_2021.csv
-
-│   └── despesa_ceaps_2022.csv
+    - despesa_ceaps_2019.csv
+    - despesa_ceaps_2020.csv
+    - despesa_ceaps_2021.csv
+    - despesa_ceaps_2022.csv
 
 ├── notebooks
+    - trat_dados.ipynb
 
-│   └── trat_dados.ipynb
-
-└── src
-    └── main.py
-├── README.md
+├── src
+    - main.py
+    
+└── README.md
 
 
 - **`Dockerfile`**: Configuração do ambiente para execução do projeto em um contêiner Docker.
