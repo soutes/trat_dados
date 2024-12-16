@@ -7,7 +7,7 @@ Este projeto utiliza técnicas de ciência de dados em um notebook Jupyter para 
 A estrutura do projeto segue uma organização clara e lógica para facilitar a navegação:
 
 ├── Dockerfile
-├── docs
+├── docs<\ br>
 │   ├── despesa_ceaps_2019.csv
 │   ├── despesa_ceaps_2020.csv
 │   ├── despesa_ceaps_2021.csv
@@ -42,10 +42,10 @@ docker run -it --rm trat-dados
 
 ## Funcionalidades
 ### Tratamento de Dados:
-    - Limpeza de valores ausentes.
-    - Normalização de campos.
-    - Remoção de duplicatas e tratamento de outliers.
-    - Conversão de colunas para os formatos corretos, como datas e valores numéricos.
+- Limpeza de valores ausentes.
+- Normalização de campos.
+- Remoção de duplicatas e tratamento de outliers.
+- Conversão de colunas para os formatos corretos, como datas e valores numéricos.
 
 ### Análise de Gastos:
 - Agrupamento de reembolsos por senador, fornecedor (CNPJ) e tipo de despesa.
