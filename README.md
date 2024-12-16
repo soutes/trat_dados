@@ -48,25 +48,28 @@ docker run -it --rm trat-dados
     - Conversão de colunas para os formatos corretos, como datas e valores numéricos.
 
 ### Análise de Gastos:
-    - Agrupamento de reembolsos por senador, fornecedor (CNPJ) e tipo de despesa.
-    - Identificação de padrões, como os top 10 senadores e os top 10 fornecedores com maiores valores reembolsados.
-    - Consulta de razões sociais das empresas com base no CNPJ utilizando a API BrasilAPI.
+- Agrupamento de reembolsos por senador, fornecedor (CNPJ) e tipo de despesa.
+- Identificação de padrões, como os top 10 senadores e os top 10 fornecedores com maiores valores reembolsados.
+- Consulta de razões sociais das empresas com base no CNPJ utilizando a API BrasilAPI.
 
 ### Visualização:
 - Geração de gráficos interativos para explorar os padrões de gastos:
-    - Soma dos reembolsos por ano.
-    - Distribuição de gastos por tipo de despesa.
-    - Comparação de gastos entre senadores e fornecedores.
-    - Identificação de outliers por meio de boxplots.
+- Soma dos reembolsos por ano.
+- Distribuição de gastos por tipo de despesa.
+- Comparação de gastos entre senadores e fornecedores.
+- Identificação de outliers por meio de boxplots.
 
 ## Previsão com Machine Learning:
 **Modelo ARIMA:**
     - Utilizado para prever valores de reembolso futuros com base em séries temporais históricas.
     - Geração de previsões para os próximos anos, incluindo intervalos de confiança.
+    
 **Previsão sem Outliers:**
     - Treinamento de modelos ajustados com dados filtrados para remover valores atípicos, garantindo previsões mais robustas.
+    
 **Visualização das Previsões:**
     - Gráficos que comparam os dados reais com as previsões, destacando margens de erro.
+    
 **Possibilidade de expansão:**
 Os modelos podem ser facilmente substituídos ou ajustados para incluir mais dados ou utilizar técnicas avançadas de Machine Learning, como Random Forests ou XGBoost.
 
