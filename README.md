@@ -1,6 +1,10 @@
 # Projeto de Tratamento de Dados - Despesas Parlamentares
 
-Este projeto utiliza técnicas de ciência de dados em um notebook Jupyter para analisar e prever valores de reembolsos usando um modelo ARIMA. O projeto inclui limpeza, transformação, análise e visualização dos dados. Foi construído para demonstrar habilidades em análise e visualização de dados.
+Este projeto utiliza técnicas de ciência de dados em um notebook Jupyter para analisar e prever valores de reembolsos providos do portal do CEAPS (Cota para Exercício da Atividade Parlamentar dos Senadores) usando um modelo ARIMA. O projeto inclui limpeza, transformação, análise e visualização dos dados. Foi construído para demonstrar habilidades em análise e visualização de dados.
+
+Basicamente, o CEAPS contém todos os gastos que senadores brasileiros declararam, divididos por ano.
+https://www12.senado.leg.br/transparencia/dados-abertos-transparencia/dados-abertos-ceaps?utm_medium=email&_hsenc=p2ANqtz-8uBrZMoino_rB6jmdFynnQbn42IikVsVLMhHV97GF8Xpj_nvH9Y82a6QxBWDaL6lLmu7_HgCg_EweJR4BfMCeadHVXvw&_hsmi=231298145&utm_content=231298145&utm_source=hs_automation
+
 
 ## Estrutura do Projeto
 
