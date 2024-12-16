@@ -85,5 +85,4 @@ Este projeto está licenciado sob a MIT License.
 
 ## Contato
 Desenvolvedor: Luiz Soutes
-Portfólio no GitHub (https://github.com/soutes)
-Email: soutes@gmail.com
+LinkedIn: https://www.linkedin.com/in/soutes/
